@@ -26,10 +26,13 @@ $BASEJUMP_STL_DIR/bsg_misc/bsg_decode.sv
 $BASEJUMP_STL_DIR/bsg_misc/bsg_round_robin_arb.sv
 $BASEJUMP_STL_DIR/bsg_misc/bsg_crossbar_o_by_i.sv
 $BASEJUMP_STL_DIR/bsg_misc/bsg_mux_one_hot.sv
+$BASEJUMP_STL_DIR/bsg_misc/bsg_dff.sv
 $BASEJUMP_STL_DIR/bsg_misc/bsg_dff_en.sv
+$BASEJUMP_STL_DIR/bsg_misc/bsg_dff_en_bypass.sv
 $BASEJUMP_STL_DIR/bsg_misc/bsg_transpose.sv
 $BASEJUMP_STL_DIR/bsg_misc/bsg_dff_reset.sv
 $BASEJUMP_STL_DIR/bsg_misc/bsg_dff_reset_en.sv
+$BASEJUMP_STL_DIR/bsg_misc/bsg_dff_reset_set_clear.sv
 $BASEJUMP_STL_DIR/bsg_mem/bsg_mem_1r1w_synth.sv
 $BASEJUMP_STL_DIR/bsg_mem/bsg_mem_1r1w.sv
 $BASEJUMP_STL_DIR/bsg_mem/bsg_mem_1r1w_sync.sv
@@ -71,5 +74,5 @@ $BASEJUMP_STL_DIR/bsg_legacy/bsg_fsb/bsg_fsb_pkg.v
 
 $TOP_DIR/bsg_fifo_1r1w_small_hardened_tester.sv
 $TOP_DIR/bsg_fifo_1r1w_small_hardened_test_node.sv
-$TOP_DIR/bsg_fifo_1r1w_small_hardened_cov.sv
+$TOP_DIR/../bsg_fifo_1r1w_small_hardened_random/bsg_fifo_1r1w_small_hardened_cov.sv
 
